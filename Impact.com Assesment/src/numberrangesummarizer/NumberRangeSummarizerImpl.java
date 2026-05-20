@@ -12,7 +12,9 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer { // cla
         for (String s : input.split(",")) {  //use comma to split the inputs and loop through each value
             numbers.add(Integer.parseInt(s.trim())); // add number into the list, convert to integer, and remove spaces
         }
-
+        
+        
+        Collections.sort(numbers); // sorting unsorted collections
         return numbers; // return complete list
     }
 

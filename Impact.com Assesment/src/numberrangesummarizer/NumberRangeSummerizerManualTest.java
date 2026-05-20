@@ -1,6 +1,6 @@
 package numberrangesummarizer;
 
-public class NumberRangeSummerizerMain {
+public class NumberRangeSummerizerManualTest {
 
 	   public static void main(String[] args) {
 
